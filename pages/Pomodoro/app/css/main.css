@@ -1,0 +1,55 @@
+div {
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.restingbody {
+  padding-top: 100px;
+  background-color: #00ACE9;
+  color: #404040;
+}
+
+.activebody {
+  padding-top: 200px;
+  background-color: #D43F3F;
+  color: #404040;
+}
+
+.breakingbody {
+	padding-top: 150px;
+  background-color: #404040;
+  color: #D43F3F;
+}
+
+h1 {
+	transition: 1s;
+}
+
+.activeSession {
+	font-size: 500%;
+}
+
+
+.restingBreak {
+	font-size: auto;
+	transition: 1s;
+}
+
+.activeBreak {
+	font-size: auto;
+	transition: 1s;
+}
+
+.breakingBreak {
+	font-size: 500%;
+	transition: 1s;
+}
+
+button {
+  margin:3px 10px;
+}
+
+body {
+  transition: 1s;
+}
