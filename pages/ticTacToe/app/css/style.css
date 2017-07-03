@@ -1,0 +1,38 @@
+body {
+  padding-left: 30%;
+  padding-right: 30%;
+  background-color: #A1EDA7;
+}
+
+.sweetTacToe {
+  display: flex;
+  flex-flow: row;
+}
+.spot {
+  margin: 2px;
+  background-color: green;
+  border-radius: 4px 4px 4px 4px;
+  width: 100px;
+  min-height: 100px;
+}
+
+.firstCol {
+  border-right: 5px solid black;
+}
+
+.secondCol {
+  border-right: 5px solid black;
+}
+
+.firstRow {
+  border-bottom: 5px solid black;
+}
+
+.secondRow {
+  border-bottom: 5px solid black;
+}
+
+.gameToken {
+  padding-left: 25%;
+  padding-top: 25%;
+}
