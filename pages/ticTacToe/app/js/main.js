@@ -4,7 +4,7 @@ $( document ).ready(function() {
   var origBoard = ["O",1 ,"X","X",4 ,"X", 6 ,"O","O"];
   var winner = false;
   var bestMoveFunctionCount = 0;
-  const USER_TOKEN = '<img class="gameToken" src="images/candy.png" height="50px" width="50px">';
+  const USER_TOKEN = '<img class="gameToken" src="images/sweet.png" height="50px" width="50px">';
   const BOT_TOKEN = '<img class="gameToken" src="images/tech.png" height="50px" width="50px">';
   const USER = "X";
   const BOT = "O";
