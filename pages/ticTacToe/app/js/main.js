@@ -38,7 +38,7 @@ $( document ).ready(function() {
     var spotIsAvailable = isSpotAvailable(spotIndex);
     if(spotIsAvailable) {
       claimSpotAndCheckForWinner(USER, spotIndex);
-      window.setTimeout(botTurn,1000);
+      window.setTimeout(botTurn,300);
     }
   }
 

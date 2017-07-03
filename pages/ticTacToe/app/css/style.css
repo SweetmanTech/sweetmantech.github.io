@@ -1,35 +1,43 @@
 body {
-  padding-left: 30%;
+  padding-left: 35%;
   padding-right: 30%;
-  background-color: #A1EDA7;
+  background-color: #A134D8;
+  font-family:sans-serif;
+}
+h1{
+  margin-left: 5%;
+  color: #D69FF2;
+  margin-top: 10%;
+  font-size: 250%
 }
 
 .sweetTacToe {
   display: flex;
   flex-flow: row;
+  margin-top: 15%;
 }
 .spot {
   margin: 2px;
-  background-color: green;
+  background-color: #D69FF2;
   border-radius: 4px 4px 4px 4px;
   width: 100px;
   min-height: 100px;
 }
 
 .firstCol {
-  border-right: 5px solid black;
+  border-right: 5px solid #F0D3FF;
 }
 
 .secondCol {
-  border-right: 5px solid black;
+  border-right: 5px solid #F0D3FF;
 }
 
 .firstRow {
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #F0D3FF;
 }
 
 .secondRow {
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #F0D3FF;
 }
 
 .gameToken {
