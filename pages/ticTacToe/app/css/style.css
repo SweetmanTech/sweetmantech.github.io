@@ -23,7 +23,7 @@ h2{
   padding-right: 30%;
   margin-left: 5%;
   color: #D69FF2;
-  font-size: 150%
+  font-size: 150%;
 }
 .gameWinner {
   background-color: #60277C;
@@ -56,7 +56,6 @@ h2{
 .secondCol {
   border-right: 5px solid #F0D3FF;
 }
-
 .firstRow {
   border-bottom: 5px solid #F0D3FF;
 }
