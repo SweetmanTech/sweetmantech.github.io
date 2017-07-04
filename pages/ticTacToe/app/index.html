@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>Sweet Tac Toe</title>
   <!--build:css css/styles.min.css-->
   <link rel="stylesheet" href="css/style.css">
   <!--endbuild-->
@@ -13,6 +13,14 @@
 
   <div>
     <h1>Sweet-Tac-Toe</h1>
+  </div>
+
+  <div style="display: none" class="gameWinner">
+    <h2>Pick your Character</h2>
+    <div class="buttonContainer">
+      <button><img class="characterPickButton techIcon" src="images/tech.png"></button>
+      <button><img class="characterPickButton" src="images/sweet.png"></button>
+    </div>
   </div>
 
   <div class="sweetTacToe">
@@ -34,6 +42,11 @@
       <div class="free spot secondRow"></div>
       <div class="free spot thirdRow"></div>
     </div>
+  </div>
+
+  <div class="buttonContainer resetContainer">
+    <button><img class="resetButton botReset" src="images/tech.png"></button>
+    <button><img class="resetButton userReset" src="images/sweet.png"></button>
   </div>
 
   <!--jQuery-->
